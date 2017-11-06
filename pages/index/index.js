@@ -1,4 +1,4 @@
-//index.js
+﻿//index.js
 //获取应用实例
 var wxCharts = require('../../utils/wxcharts.js');
 var app = getApp();
@@ -7,22 +7,22 @@ var chartData = {
   main: {
     title: '总成交量',
     data: [80, 50, 45, 400,100],
-    categories: ['海创大厦1号', '海创大厦2号', '海创大厦3号', '海创大厦4号', '海创大厦5号']
+    categories: ['大厦1号', '大厦2号', '大厦3号', '大厦4号', '大厦5号']
   },
   sub: [{
-    title: '海创大厦1号',
+    title: '大厦1号',
     data: [70, 40, 65, 100, 34, 18],
     categories: ['1', '2', '3', '4', '5', '6']
   }, {
-      title: '海创大厦2号',
+      title: '大厦2号',
     data: [55, 30, 45, 36, 56, 13],
     categories: ['1', '2', '3', '4', '5', '6']
   }, {
-      title: '海创大厦3号',
+      title: '大厦3号',
     data: [76, 45, 32, 74, 54, 35],
     categories: ['1', '2', '3', '4', '5', '6']
   }, {
-      title: '海创大厦4号',
+      title: '大厦4号',
     data: [76, 54, 23, 12, 45, 65],
     categories: ['1', '2', '3', '4', '5', '6']
   }]
