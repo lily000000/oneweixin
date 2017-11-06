@@ -1,0 +1,19 @@
+/* pages/setting/setting.wxss */
+.item-ul{
+  width: 100%;
+  border-bottom: 2rpx solid #D9D9D9; 
+}
+.item-li{
+  width:100%;
+  display: flex;
+  flex-flow: row ;
+  justify-content: space-between;
+  padding-left: 20rpx;
+  padding-top: 20rpx; 
+  padding-bottom: 15rpx;
+ 
+}
+.item-li switch{
+  width: 88rpx;
+  padding-right: 50rpx;
+}

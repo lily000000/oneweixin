@@ -1,0 +1,41 @@
+.log-item {
+  margin: 10rpx;
+}
+
+.item-title{
+  font-size: 32rpx;
+  color: #333;
+}
+.itemo{
+ 
+  margin-top: 20rpx;
+  padding-left: 50rpx;
+  padding-bottom: 30rpx;
+  width: 100%;
+  border-bottom: 1rpx solid #D9D9D9;
+}
+.itemo image{
+  width: 20rpx;
+  height:20rpx; 
+   margin-right: 20rpx; 
+}
+.display_show{
+    display: block;
+    width: 100%;
+    color: #FE3824;
+    font-size:34rpx;
+    line-height: 40rpx;  
+    border-color: beige;
+    padding-top: 20rpx;
+    padding-left: 50rpx;
+    padding-bottom: 20rpx;
+    border-bottom: 1rpx solid #D9D9D9;
+}
+.display_none{
+    display: none;
+}
+rich-text{
+    color: #757575;
+    font-size: 28rpx;
+    line-height: 45rpx;
+}

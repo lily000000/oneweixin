@@ -1,0 +1,34 @@
+<!--index.wxml-->
+ <view class="container">
+    <view class='list-contar'>
+      <view class='list_wrap'>
+        <view class='list-title-ul'>
+          <view class='list-title-li textTit'>今日销售额</view>
+          <view class='list-title-li money'>{{todymoney}}</view>
+        </view>
+        <view class='list-title-ul dotted'>
+          <view class='list-title-li textTit'>本月累计销售额(元)</view>
+          <view class='list-title-li money'>{{monthmoney}}</view>
+        </view>
+      </view>
+      <view class='list_wrap'>
+        <view class='list-title-ul'>
+          <view class='list-title-li textTit'>今日销售额</view>
+          <view class='list-title-li money'>{{todymoney}}</view>
+        </view>
+        <view class='list-title-ul dotted'>
+          <view class='list-title-li textTit'>本月累计销售额(元)</view>
+          <view class='list-title-li money'>{{monthmoney}}</view>
+        </view>
+      </view>
+      <view class='moremessage' bindtap='morejump'><text>{{moremessage}}</text></view>
+  </view>
+  <view class='machineChart'>
+     <text class='chartTitle'>机器销售额TOP5</text>
+     <view class='moremessage'><text>{{moremessage}}</text></view>     
+  </view>
+  <view class="charts">
+    <canvas canvas-id="columnCanvas" class="canvas" bindtouchstart="touchHandler"></canvas>
+  </view>
+</view>
+

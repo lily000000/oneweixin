@@ -1,0 +1,74 @@
+/**index.wxss**/
+.container{
+  background: #cccccc;
+}
+.list-contar{
+  width: 100%;
+  background: #fff; 
+}
+.list_wrap{
+  background: #fff;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:space-around; 
+  width: 710rpx;
+  margin: auto;
+  padding-top: 20rpx;
+  border-bottom: 1rpx dotted #d9d9d9;
+  padding-bottom: 30rpx;
+
+}
+.textTit{
+  font-size: 24rpx;
+  color: #434343;
+  font-weight: normal;
+  line-height: 64rpx;
+}
+.dotted{
+   border-left: 1rpx dotted #d9d9d9;
+   padding-left: 90rpx;
+}
+.money{
+  font-size:30rpx;
+  color: #f65959;
+  text-align: right;
+}
+.moremessage{
+  width: 710rpx;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:flex-end;
+  line-height: 60rpx;
+  font-size: 24rpx;
+  color: #262626;
+}
+.machineChart{
+  width: 100%;
+  margin-top: 15rpx;
+  text-align: center;
+  background: #fff;
+}
+ .charts{
+  background: #fff;
+  width: 100%;
+
+}
+.chartTitle{
+  font-size: 32rpx;
+  font-weight: normal;
+  line-height: 80rpx;
+}
+.title {
+	text-align: center;
+	position: relative;
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+}
+.back-btn {
+	position: absolute;
+	left: 20rpx;
+	top: 0;
+} 
+.canvas{
+  width: 710rpx;
+}

@@ -1,0 +1,22 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <view class='logo'>
+    <image src='../../images/zong.jpg' mode='aspectFit'></image>
+  </view>
+  <view class='login-from' bindsubmit="formSubmit">
+  <!--账号-->
+    <view class='inputview'>
+        <image src='../../images/ming.png' mode='aspectFit'></image>
+        <input class="inputText" placeholder="请输入账号" bindinput="phoneInput" name='userName' value="{{userName}}"/>  
+    </view>
+  <!--密码-->
+    <view class='inputview'>
+        <image src='../../images/mima.png' mode='aspectFit'></image>
+        <input class="inputText" password="true" placeholder="请输入密码" bindinput="passwordInput" name="userPassword" value="{{userPassword}}"/>  
+    </view>
+    <view class='loginBtn'>
+        <button class='loginBtn' bindtap='login' form-type="submit">登录</button>
+    </view>
+  </view>
+  <!-- <view class='btnCopy'><text>{{copyright}}</text></view>    -->
+</view> 

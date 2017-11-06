@@ -1,0 +1,28 @@
+<!--pages/setting/setting.wxml-->
+<view class='container'>
+  <view class='item-ul'>
+    <view class='item-li'>
+      <text>登录提醒</text>
+      <switch bindchange="switch1Change"></switch>
+    </view>
+   </view>
+  <view class='item-ul'>   
+    <view class='item-li'>
+      <text>售货机缺货通知</text>
+      <switch bindchange="switch1Change"></switch>
+    </view>
+  </view>
+  <view class='item-ul'>
+    <view class='item-li'>
+      <text>售货机故障通知</text>
+      <switch bindchange="switch1Change"></switch>
+    </view>
+  </view>
+  <view class='item-ul'>
+    <view class='item-li'>
+      <text>售货机故障通知</text>
+      <switch bindchange="switch1Change"></switch>
+    </view>
+  </view>
+</view>
+

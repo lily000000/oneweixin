@@ -1,0 +1,33 @@
+<view class='container'>
+  <view class='title-top'>
+    <view class='tou'>
+        <image src='../../images/头像-2@1x.png' mode='aspectFit'></image>
+    </view>
+    <view><text>昵称</text></view>
+  </view>
+  <view class='item-ul'>
+    <view class='item-li' bindtap='personal'>
+      <text>个人信息</text>
+      <image src='../../images/jin.png' mode='aspectFit'></image>
+    </view>
+  </view>
+  <view class='item-ul'>
+    <view class='item-li' bindtap='setting'>
+      <text>推送个人设置</text>
+      <image src='../../images/jin.png' mode='aspectFit'></image>
+    </view>
+  </view>
+  <view class='item-ul'>
+    <view class='item-li' bindtap='detail'>
+      <text>账户余额</text>
+      <image src='../../images/jin.png' mode='aspectFit'></image>
+    </view>
+  </view>
+  <view class='item-ul'>
+    <view class='item-li'>
+      <text>修改密码</text>
+      <image src='../../images/jin.png' mode='aspectFit'></image>
+    </view>
+  </view>
+  
+</view>

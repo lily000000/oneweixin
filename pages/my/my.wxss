@@ -1,0 +1,29 @@
+.title-top{
+  text-align: center;
+  margin-top: 60rpx;
+}
+.tou image{
+width: 160rpx;
+height: 160rpx;
+}
+.item-ul{
+  width:100%;
+  border-bottom: 2rpx solid #D9D9D9;
+}
+.item-li{
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:space-between;
+  padding: 0 20rpx 0 20rpx;
+}
+.item-li text{
+  font-size: 34rpx;
+  color: #434343;
+  line-height: 100rpx;
+}
+.item-li image{
+  width:16rpx;
+  height:26rpx;
+  margin-top: 40rpx;
+}

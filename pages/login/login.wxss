@@ -1,0 +1,45 @@
+.logo{
+  margin-top: 40rpx;
+}
+.logo image{
+  width: 160rpx;
+  height: 160rpx;
+}
+.login-from{
+  width: 640rpx;
+  margin-top: 40rpx;
+}
+.login-from image{
+  width: 36rpx;
+  height: 44rpx;
+}
+.inputview{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  height: 64rpx;
+  line-height: 64rpx;
+  border-bottom: 2rpx solid #D8D8D8;
+  margin-top: 20px;  
+}
+.inputview input{
+  margin-left: 30rpx;
+}
+.loginBtn{
+  margin-top: 110rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+}
+.loginBtn{
+  background-color: #F75959;
+  color: #fff;
+  border-radius: 10rpx;
+}
+.btnCopy{
+    text-align: center;
+    color: #525252;
+    font-size: 24rpx;
+    line-height: 33rpx;
+    position: absolute;
+    bottom: 42rpx;
+}

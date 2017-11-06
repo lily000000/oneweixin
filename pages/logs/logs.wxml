@@ -1,0 +1,18 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class='itemo' bindtap='showitem'>
+    <image src='../../../images/right.png' mode='aspectFit' src="{{open?'../../../images/xia.png':'../../../images/right.png'}}"></image>
+    <text class='item-title'>全部线路（共18台）</text>
+  </view>
+  <view class="{{open?'display_show':'display_none'}}">1001000012 <rich-text>文一西路海创大厦</rich-text></view>
+  <view class="{{open?'display_show':'display_none'}}">1001000013 <rich-text>文一西路海创大厦</rich-text></view>
+  <view class="{{open?'display_show':'display_none'}}">1001000014 <rich-text>文一西路海创大厦</rich-text></view>
+
+  <view class='itemo' bindtap='showitemo'>
+    <image src='../../../images/right.png' mode='aspectFit' src="{{openo?'../../../images/xia.png':'../../../images/right.png'}}"></image>
+    <text class='item-title'>文一线路（共18台）</text>
+  </view>
+  <view class="{{openo?'display_show':'display_none'}}">1001000012 <rich-text>文一西路海创大厦</rich-text></view>
+  <view class="{{openo?'display_show':'display_none'}}">1001000013 <rich-text>文一西路海创大厦</rich-text></view>
+  <view class="{{openo?'display_show':'display_none'}}">1001000014 <rich-text>文一西路海创大厦</rich-text></view>
+</view>

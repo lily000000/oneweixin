@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/my/my",
+    "pages/logs/logs",
+    "pages/personal/personal",
+    "pages/setting/setting",
+    "pages/more/more",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F65959",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "color": "#434343",
+    "selectedColor": "#F65959",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "报表",
+      "iconPath":"images/报表.png",
+      "selectedIconPath":"images/报表1.png"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "售货机",
+      "iconPath": "images/自助售货机.png",
+      "selectedIconPath": "images/自助售货机1.png"
+    },{
+      "pagePath": "pages/my/my",
+      "text":"我的",
+      "iconPath": "images/我的.png",
+      "selectedIconPath": "images/我的1.png"
+    }]
+  }
+}
